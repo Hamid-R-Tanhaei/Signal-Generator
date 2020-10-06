@@ -11,6 +11,6 @@ On the hardware side a stm32f103c8t6 ARM micro-controller controls the DDS and V
 On the software side there is a Java application that interacts with user. On the app a freq/gain/time table is provided in order to set user values.
 The frequency ranges from 1Hz to 10MHz. The table can be saved up to 4 presets which facilitate the data reservation for later uses. 
 
+![App Images](Extras/draw1.png)
 
-![](Extras/App.png)
 
