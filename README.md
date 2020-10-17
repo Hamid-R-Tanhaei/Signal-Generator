@@ -16,7 +16,7 @@ The frequency ranges from 1Hz to 10MHz. The table can be saved up to 4 presets w
 The firmware has been developed through STM32CubeIDE and STM32CudeMX: [Firmware_main_quickview](Firmware_STM32F103c8t6/Src/main.c)
 \
 The Java application hosted on PC has been developed through NetBeansIDE:
-[Java_main_quickview](Java_Application/src/main_pack/MyJFrame.java)
+[Java_main_quickview](Java_application/src/main_pack/MyJFrame.java)
 <br/>
 Note that the Java application can run in both windows and Linux platform. 
 <br/>
