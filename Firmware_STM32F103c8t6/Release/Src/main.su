@@ -1,0 +1,6 @@
+main.c:229:6:SystemClock_Config	96	static
+main.c:328:6:DDS_Freq_Set	16	static,ignoring_inline_asm
+main.c:343:6:DDS_Set	0	static,ignoring_inline_asm
+main.c:69:5:main	80	static,ignoring_inline_asm
+main.c:368:7:VGA_Set	0	static,ignoring_inline_asm
+main.c:404:6:Error_Handler	0	static
