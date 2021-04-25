@@ -58,26 +58,33 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define VGA_PWUP_Pin GPIO_PIN_1
-#define VGA_PWUP_GPIO_Port GPIOA
-#define VGA_DAT_Pin GPIO_PIN_2
-#define VGA_DAT_GPIO_Port GPIOA
-#define VGA_CLK_Pin GPIO_PIN_3
-#define VGA_CLK_GPIO_Port GPIOA
-#define VGA_LATCH_Pin GPIO_PIN_4
-#define VGA_LATCH_GPIO_Port GPIOA
-#define LED1_Pin GPIO_PIN_15
-#define LED1_GPIO_Port GPIOB
-#define LED2_Pin GPIO_PIN_10
-#define LED2_GPIO_Port GPIOA
-#define DDS_SCLK_Pin GPIO_PIN_5
-#define DDS_SCLK_GPIO_Port GPIOB
-#define DDS_DATA_Pin GPIO_PIN_6
-#define DDS_DATA_GPIO_Port GPIOB
-#define DDS_RST_Pin GPIO_PIN_7
-#define DDS_RST_GPIO_Port GPIOB
-#define DDS_FSYNC_Pin GPIO_PIN_8
-#define DDS_FSYNC_GPIO_Port GPIOB
+#define VGA_PWUP_Pin 		GPIO_PIN_12
+#define VGA_PWUP_GPIO_Port 	GPIOB
+#define VGA_DAT_Pin 		GPIO_PIN_13
+#define VGA_DAT_GPIO_Port 	GPIOB
+#define VGA_CLK_Pin 		GPIO_PIN_14
+#define VGA_CLK_GPIO_Port 	GPIOB
+#define VGA_LATCH_Pin 		GPIO_PIN_15
+#define VGA_LATCH_GPIO_Port GPIOB
+#define DDS_SCLK_Pin 		GPIO_PIN_0
+#define DDS_SCLK_GPIO_Port 	GPIOB
+#define DDS_DATA_Pin 		GPIO_PIN_1
+#define DDS_DATA_GPIO_Port 	GPIOB
+#define DDS_RST_Pin 		GPIO_PIN_10
+#define DDS_RST_GPIO_Port 	GPIOB
+#define DDS_FSYNC_Pin 		GPIO_PIN_7
+#define DDS_FSYNC_GPIO_Port GPIOA
+#define DDS_FSEL_Pin 		GPIO_PIN_11
+#define DDS_FSEL_GPIO_Port  GPIOB
+#define LED1_Pin 			GPIO_PIN_1
+#define LED1_GPIO_Port 		GPIOA
+#define Din_Pin 			GPIO_PIN_3
+#define Din_GPIO_Port 		GPIOA
+#define SCL1_Pin 			GPIO_PIN_6
+#define SCL1_GPIO_Port 		GPIOB
+#define SDA1_Pin 			GPIO_PIN_7
+#define SDA1_GPIO_Port 		GPIOB
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

@@ -195,14 +195,14 @@ static int8_t CUSTOM_HID_DeInit_FS(void)
 static int8_t CUSTOM_HID_OutEvent_FS(uint8_t event_idx, uint8_t state)
 {
   /* USER CODE BEGIN 6 */
-	LED2_GPIO_Port -> BSRR = LED2_Pin;
+	//LED2_GPIO_Port -> BSRR = LED2_Pin;
 	USBD_CUSTOM_HID_HandleTypeDef		*hhid = (USBD_CUSTOM_HID_HandleTypeDef*)hUsbDeviceFS.pClassData;
 	for (uint8_t i = 0; i < 64; i++)
 	{
 		USB_RX_Buffer[i] = hhid->Report_buf[i];
 	}
 	Flag_Rcvd_Data_HID = 1;
-	LED2_GPIO_Port -> BRR = LED2_Pin;
+	//LED2_GPIO_Port -> BRR = LED2_Pin;
   return (USBD_OK);
   /* USER CODE END 6 */
 }
